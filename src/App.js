@@ -20,7 +20,6 @@ class App extends React.Component {
 
   render() {
 
-    let testing = "";
     return (
       <Container style={{marginTop:"40px"}}>
         <Row>
@@ -32,9 +31,9 @@ class App extends React.Component {
 
             <SearchBar style={{marginTop:"40px"}} onFormSubmit={this.onTextSubmit} />
             <HostList hosts={this.state.hosts}/>
-      
+
           </Col>
-          <Col xs={6}><img style={{width:"80%", marginLeft:"50px"}} src="https://cdn.dribbble.com/users/2064103/screenshots/17226024/media/4c2123a837229d709d2351cd04e7f121.png?compress=1&resize=1600x1200&vertical=top" /></Col>
+          <Col xs={6}><img alt="img" style={{width:"80%", marginLeft:"50px"}} src="https://cdn.dribbble.com/users/2064103/screenshots/17226024/media/4c2123a837229d709d2351cd04e7f121.png?compress=1&resize=1600x1200&vertical=top" /></Col>
         </Row>
       </Container>
     );
